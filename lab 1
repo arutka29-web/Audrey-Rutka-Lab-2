@@ -1,0 +1,4 @@
+name = input("What is your name?")
+age = input("What is your age?")
+color = input("What is your favoite color?")
+print("Hello", name, "Your age is", age, "Your favorite color is", color)
