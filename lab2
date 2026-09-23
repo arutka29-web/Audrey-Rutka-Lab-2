@@ -24,16 +24,16 @@ while True:
         elif attempts == 4:
             print("Nice work! 4 attempts!")
         elif attempts == 5:
-            print("Not bad! 5 attempts!")
+            print("Pretty Bad! 5 attempts!")
         elif attempts == 6:
-            print("You got it in 6 attempts!")
+            print("Oof, 6 attempts!")
         elif attempts == 7:
-            print("You got it in 7 attempts!")
+            print("That's terrible, 7 attempts!")
         elif attempts == 8:
-            print("You got it in 8 attempts!")
+            print("Are we serious? 8 attempts!")
         elif attempts == 9:
-            print("You got it in 9 attempts!")
+            print("No comment, 9 attempts!")
         else:
-            print("You got it in 10 or more attempts!")
+            print("You lost bro, 10 attempts!")
 
         break
