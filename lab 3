@@ -7,24 +7,49 @@ def add(x, y):
 
 
 # Function that subtracts two numbers...
-def subtract(x, y):
+def sub(x, y):
     print(x - y)
 
 
 # Function that multiples two numbers...
-def multiply(x, y):
+def mul(x, y):
     print(x * y)
 
 
 # Function that divides two numbers...
-def divide(x, y):
+def div(x, y):
     print(x / y)
 
+#---------------------------------------------------------------------------------------------
 
-x = int(input("Enter the first number: "))
-y = int(input("Enter the second number: "))
+print("Welcome to mwah's super duper aesthetic and lovely calculator")
 
-add(x, y)
-subtract(x, y)
-multiply(x, y)
-divide(x, y)
+while True:
+    print("What do you need help calculating?")
+    print("Type (a)dd (s)subtract (m)ultiply (d)ivide, or type quit")
+
+    user_choice = input(": ").lower()
+
+    if user_choice in ("q", "quit"):
+        print("Shutting down...")
+        break
+
+    x = int(input("Enter the first number: "))
+    y = int(input("Enter the second number: "))
+
+    if user_choice == 'a':
+        add(x, y)
+
+    elif user_choice == 's':
+        sub(x, y)
+
+    elif user_choice == 'm':
+        mul(x, y)
+
+    elif user_choice == 'd':
+        div(x, y)
+
+    else:
+        print("Invalid input, please try again.")
+#----------------------------------------------------------------------------------------------
+
